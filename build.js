@@ -20,7 +20,7 @@ const data = {
   shorthandle: chalk.white('coffeegremlin'),
   work: chalk.white('Instructional Associate with General Assembly'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('NMausert'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~coffeegremlin'),
   github: chalk.gray('https://github.com/') + chalk.green('coffeegremlin'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('nathanmausert'),
   web: chalk.cyan('https://coffeegremlin.com'),
