@@ -25,7 +25,6 @@ const data = {
   web: chalk.cyan('https://coffeegremlin.com'),
   npx: chalk.red('npx') + ' ' + chalk.white('coffeegremlin'),
   labelWork: chalk.white.bold('    Work:'),
-  labelTwitter: chalk.white.bold(' Twitter:'),
   labelnpm: chalk.white.bold('     npm:'),
   labelGitHub: chalk.white.bold('  GitHub:'),
   labelLinkedIn: chalk.white.bold('LinkedIn:'),
@@ -37,7 +36,6 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
@@ -48,7 +46,6 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
