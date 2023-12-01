@@ -1,6 +1,6 @@
 {
   "name": "coffeegremlin",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "A personal card for Nathan Mausert (@coffeegremlin)",
   "main": "/bin/card.js",
   "bin": {
